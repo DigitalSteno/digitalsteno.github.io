@@ -35,7 +35,8 @@
     height: 54px;
 }
 .v-class-resp{
-    opacity: 0;
+/*     opacity: 0; */
+    display: none;
 }
 /* Home section */
 .p1 .p2{
