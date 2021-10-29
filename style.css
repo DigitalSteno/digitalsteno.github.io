@@ -146,6 +146,8 @@ html{
 .cards{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Work Sans', sans-serif;
     background-color: rgb(233, 233, 255);
     border: 2px solid black;
