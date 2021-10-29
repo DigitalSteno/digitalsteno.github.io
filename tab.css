@@ -1,0 +1,22 @@
+/* About section */
+.both{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px;
+}
+.card-cont-1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.card-cont-2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+/* Terms and conditions section */
+.tandc{
+    margin-left: 100px;
+}
