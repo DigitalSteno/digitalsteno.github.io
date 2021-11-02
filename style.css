@@ -86,8 +86,8 @@ html{
     margin: 5px;
 }
 #home-section p{
-    color: white;
     text-align: center;
+    color: white;
     font-size: 19px;
     /* margin: 5px; */
     font-family: 'Work Sans', sans-serif;
@@ -112,6 +112,9 @@ html{
     /* font-weight: bold; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     
+}
+.down:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 .down a{
     text-decoration: none;
@@ -203,6 +206,9 @@ html{
     cursor: pointer;
     /* font-weight: bold; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.go-pro:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 .go-pro a{
     font-family: 'Inter', sans-serif;
