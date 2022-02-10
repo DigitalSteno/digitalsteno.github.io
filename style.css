@@ -152,8 +152,8 @@ html{
     justify-content: center;
     align-items: center;
     font-family: 'Work Sans', sans-serif;
-    background-color: rgb(208, 208, 252);
-/*     background-color: rgb(212, 223, 226); */
+    background-color: rgb(183, 217, 255);
+    /* background-color: rgb(212, 223, 226); */
     border: 2px solid black;
     border-radius: 10px;
     padding: 8px;
