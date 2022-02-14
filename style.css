@@ -164,7 +164,7 @@ html{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .cards:hover{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 .card-container{
     display: flex;
