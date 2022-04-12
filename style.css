@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -20,11 +21,11 @@ html{
     /* opacity: 0.5; */
 }
 .logo{
-    /* padding: 0px; */
+    padding: 5px;
     height: 50px;
     width: 50px;
-    /* border: white 2px solid;
-    border-radius: 50%; */
+    /* border: white 2px solid;*/
+    border-radius: 50%;
 }
 .navig{
     display: flex;
