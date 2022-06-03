@@ -1,0 +1,26 @@
+/* About section */
+.both{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+.card-cont-1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.card-cont-2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+/* Terms and conditions section */
+.tandc{
+    margin-left: 100px;
+}
+@media only screen and (max-width: 644px) {
+    .proCards {
+        flex-direction: column;
+    }
+}
