@@ -1,0 +1,3 @@
+# https://digitalsteno.github.io/robotstxt.html
+User-agent: *
+Disallow:
