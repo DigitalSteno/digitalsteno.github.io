@@ -4,6 +4,28 @@
     padding: 0;
 }
 
+/* Cookie Section */
+.cookie-cont{
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+@media only screen and (max-width: 315px) {
+    #cookie-head{
+        font-size: 16px;
+    }
+    .cookie-cont p{
+        font-size: 12px;
+    }
+    .cookie-cont{
+        padding: 10px;
+    }
+    .buttons .item{
+        font-size: 12px;
+    }
+}
+
 /*Navigation section */
 .logo {
     position: absolute;
@@ -12,6 +34,10 @@
 
 .navul {
     flex-direction: column;
+    /* opacity: 1;
+    height: 287px;
+    transition: all 0.5s ease-out; */
+    /* transition-delay: 0.3s; */
 }
 
 .header {
@@ -20,9 +46,9 @@
 }
 
 .navig {
-    height: 200px;
+    height: 287px;
     flex-direction: column;
-    transition: all 0.3s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .burger {
@@ -36,10 +62,17 @@
 
 .h-nav-resp {
     height: 54px;
+    /* opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-out; */
 }
 
 .v-class-resp {
-    /* opacity: 0; */
+    /* height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-out; */
+    /* transition-delay: 0.3s; */
     display: none;
 }
 
@@ -104,6 +137,52 @@
         text-align: center;
     }
 }
+/* Contact us section */
+/* For Tab */
+.inputBox{
+    width: 50%;
+}
+.inputBtn{
+    width: 13%;
+}
+/* For Phone */
+@media only screen and (max-width: 515px) {
+    .inputBox{
+        width: 80%;
+    }
+    .inputBtn{
+        width: 25%;
+    }
+}
+/* Terms and conditions section */
 .tandc {
     margin-left: 50px;
+}
+/* Privacy-Policy section */
+.ppCont{
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+.ppContHead{
+    font-size: 18px;
+}
+.ppLi{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+@media only screen and (max-width: 239px) {
+    .ppDisc{font-size: 14px;}
+    .ppLi{
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .ppCont{
+        font-size: 12px;
+    }
+    .ppContHead{
+        font-size: 14px;
+    }
+    .ppSubHead{font-size: 18px;}
 }
